@@ -11,4 +11,4 @@ This app is a simple YouTube clone built with React.
 
 ### Resources
 
-This app was built as part of a [Udemy tutorial](https://www.udemy.com/react-redux/). The project scaffold / starter code for this project is [here](https://github.com/StephenGrider/ReduxSimpleStarter.git).
+This app was built as part of a [Udemy tutorial](https://www.udemy.com/react-redux/). The project scaffold / boilerplate for this project is [here](https://github.com/StephenGrider/ReduxSimpleStarter.git).
