@@ -1,3 +1,14 @@
+'use strict';
+
+require('dotenv').config();
+const {DefinePlugin} = require('webpack');
+
+let plugins = [
+  new DefinePlugin({
+    __API_KEY__: JSON.stringify(process.env.API_KEY),
+  }),
+];
+
 module.exports = {
   entry: [
     './src/index.js'
@@ -7,6 +18,7 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  plugins,
   module: {
     loaders: [{
       exclude: /node_modules/,
